@@ -23,4 +23,7 @@ flowchart TD
     node3a --> node4 
     node4 --Approved--> node5
     node4 --> node3
+
+    classDef note fill:#ccc,stroke:#000,stroke-width:2px,color:#000;
+    class node2,node4 note;
 ```
