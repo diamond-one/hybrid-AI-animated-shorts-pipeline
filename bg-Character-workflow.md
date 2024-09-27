@@ -23,13 +23,18 @@ flowchart TD
     node8 --> node9
 
 ```
+Original image generation 
 
 ![Initial Image Generated](image.png)
-Original image generation 
-![Issues with image](image-1.png)
+
 Issues with image
-![comfyUI workflow](image-2.png)
+![Issues with image](image-1.png)
+
 ComfyUI Upscale and Facefix Workflow
-![comfyUI OUTPUT](image-3.png)
+![comfyUI workflow](image-2.png)
+
 Output of ComfyUI Workflow 
+![comfyUI OUTPUT](image-3.png)
+
+Photoshob Beta Character removal (to give space for 3d character integration)
 ![photoshop beta remove](image-4.png)
