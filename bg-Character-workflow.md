@@ -26,8 +26,8 @@ flowchart TD
 Original image generation 
 ![Initial Image Generated](image.png)
 
-
 Issues with image
+
 ![Issues with image](image-1.png)
 
 ComfyUI Upscale and Facefix Workflow
