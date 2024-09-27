@@ -1,9 +1,12 @@
+
+
 ```mermaid
 flowchart TD
     node1["Proprietary GPT"]
     node2["[Dali] Image Generation"]
-    node4["[Stable Defusion] Face Detail Refinement"]
-    node5["[Stable Defusion] Image Upscale in ComfyUI"]
+    node2a["[Photoshop] Focal Character Removal"]
+    node4["[Stable Defusion] Custom Face Detail Refinement pass"]
+    node5["[Stable Defusion] Custom Image Upscale in ComfyUI"]
     node6["[Runway.ml] IMG->VIDEO Generation"]
     node7["[Photoshop] Layer Separation"]
     node8["Unreal Engine Composite"]
@@ -13,7 +16,8 @@ flowchart TD
     node2 -- GPT/Image Iteration--> node1
     node2 --> node4
     node4 --> node5
-    node5 --> node6
+    node5 --> node2a
+    node2a--Remove the need for photoshop by building lama object removal workflow--> node6
     node6 --IMG-VIDEO Iteration --> node7
     node7 --> node8
     node8 --> node9
