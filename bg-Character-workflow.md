@@ -1,7 +1,7 @@
 
 
 ```mermaid
-flowchart TD
+flowchart LR
     node1["Proprietary GPT"]
     node2["[Dali] Image Generation"]
     node2a["[Photoshop] Focal Character Removal"]
