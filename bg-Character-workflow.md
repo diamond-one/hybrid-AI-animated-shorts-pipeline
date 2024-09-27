@@ -17,7 +17,7 @@ flowchart TD
     node2 --> node4
     node4 --> node5
     node5 --> node2a
-    node2a--Remove the need for photoshop by building lama object removal workflow--> node6
+    node2a--Optional: Remove the need for photoshop by building lama object removal workflow--> node6
     node6 --IMG-VIDEO Iteration --> node7
     node7 --> node8
     node8 --> node9
