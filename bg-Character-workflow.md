@@ -23,3 +23,6 @@ flowchart TD
     node8 --> node9
 
 ```
+
+![Initial Image Generated](image.png)
+![Issues with image](image-1.png)
