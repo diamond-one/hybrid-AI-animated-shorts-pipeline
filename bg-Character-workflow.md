@@ -25,4 +25,11 @@ flowchart TD
 ```
 
 ![Initial Image Generated](image.png)
+Original image generation 
 ![Issues with image](image-1.png)
+Issues with image
+![comfyUI workflow](image-2.png)
+ComfyUI Upscale and Facefix Workflow
+![comfyUI OUTPUT](image-3.png)
+Output of ComfyUI Workflow 
+![photoshop beta remove](image-4.png)
