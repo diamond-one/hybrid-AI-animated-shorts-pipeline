@@ -6,7 +6,7 @@ flowchart TD
     node2["[Dali] Image Generation"]
     node2a["[Photoshop] Focal Character Removal"]
     node4["[Stable Defusion] Custom Face Detail Refinement pass"]
-    node5["[Stable Defusion] Custom Image Upscale in ComfyUI"]
+    node5["[Stable Defusion] Custom Image Upscale"]
     node6["[Runway.ml] IMG->VIDEO Generation"]
     node7["[Photoshop] Layer Separation"]
     node8["Unreal Engine Composite"]
