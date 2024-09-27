@@ -24,8 +24,8 @@ flowchart TD
 
 ```
 Original image generation 
-
 ![Initial Image Generated](image.png)
+
 
 Issues with image
 ![Issues with image](image-1.png)
@@ -36,5 +36,5 @@ ComfyUI Upscale and Facefix Workflow
 Output of ComfyUI Workflow 
 ![comfyUI OUTPUT](image-3.png)
 
-Photoshob Beta Character removal (to give space for 3d character integration)
-![photoshop beta remove](image-4.png)
+Photoshop Beta Character removal (to give space for 3d character integration)
+![alt text](image-5.png)
