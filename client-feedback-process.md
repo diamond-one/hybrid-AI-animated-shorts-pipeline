@@ -5,15 +5,15 @@ This process highlights how client feedback is managed throughout the production
 
 ```mermaid
 flowchart TD
-    node1["Initial Character Mock-up"]
-    node1a["Model Sheets Created"]
-    node2["Client Review/Direction"]
-    node3["Character Creation (CC4)"]
+    node1["Character Mock-up"]
+    node1a["Model Sheets"]
+    node2["Client Review"]
+    node3["Character Creation"]
     node4["Internal Review"]
-    node5["Update Character(?)"]
-    node5a["Model Sheets Created"]
+    node5["Character Update"]
+    node5a["Model Sheets Updated"]
     node6["Submit to Client"]
-    node7{"Client Approval?"}
+    node7{"Approval?"}
     node8["Next Stage"]
 
     node1 --> node1a --> node2
