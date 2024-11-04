@@ -1,12 +1,12 @@
 
 ```mermaid
 flowchart TD
-    node1["Character Animation [Body/Expression] in iClone (No Lip Sync)"]
-    node2["Process with AudioToFace for Lip Sync"]
+    node1["Character Animation [Body/Expression] in iClone"]
+    node2["Automatic Lipsync"]
     node3["Export for Unreal"]
     node4["Integrate Character in Unreal"]
     node5["Export from UE"]
-    node6["Final composite in Premiere"]
+    node6["Final edit in Premiere"]
     node7["Director/Client Review"]
 
     node1 --> node2
@@ -23,3 +23,6 @@ flowchart TD
 Free alternatives which need development:
 LivePortrait with Face fix and upscale in Stable Diffusion 
 wave-to-face with face fixes and upscale in Stable Diffusion 
+
+
+Gen AI is like throwing the dice, we are constantly working on ways to improve out pipeline so our results are less random and directable 

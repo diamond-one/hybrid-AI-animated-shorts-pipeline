@@ -13,10 +13,11 @@ flowchart TD
     node9["Final Review"]
 
     node1 --> node2
-    node2 --> node4
+    node2 --> node2a
+    node2a --> node4
     node4 --> node5
-    node5 --> node2a
-    node2a --> node6
+    node5 --> node6
+    node2a ---> node6
     node6 --> node7
     node7 --> node8
     node8 --> node9
