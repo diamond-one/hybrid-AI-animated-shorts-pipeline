@@ -1,6 +1,10 @@
 
 ```mermaid
 flowchart TD
+    node1z["[Director] Animation Breakdown"]
+    node2z["Motion Capture [X-Sense]"]
+    node3z["Cleanup [iClone]"]
+
     node1["Character Animation [Body/Expression] in iClone"]
     node2["Automatic Lipsync"]
     node3["Export for Unreal"]
@@ -9,6 +13,7 @@ flowchart TD
     node6["Final edit in Premiere"]
     node7["Director/Client Review"]
 
+    node1z --> node2z --> node3z --> node1
     node1 --> node2
     node2 --Director Review--> node3
     node3 --> node4
