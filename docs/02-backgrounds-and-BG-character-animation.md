@@ -24,17 +24,21 @@ flowchart TD
 
 ```
 Original image generation 
-![Initial Image Generated](image.png)
+![image](https://github.com/user-attachments/assets/863ef60d-6b9f-4a4f-aff3-fbd819fdf1ce)
 
 Issues with image
+![image-1](https://github.com/user-attachments/assets/43dad8fc-7a88-4b27-ba64-02d695dadd5e)
 
-![Issues with image](image-1.png)
 
 ComfyUI Upscale and Facefix Workflow
-![comfyUI workflow](image-2.png)
+![image-2](https://github.com/user-attachments/assets/4bba2659-e678-4fbd-bf21-f103c88be3ab)
 
 Output of ComfyUI Workflow 
-![comfyUI OUTPUT](image-3.png)
+![image-3](https://github.com/user-attachments/assets/3fa6da8a-283f-475a-b876-7f6e3d06dc1a)
 
-Photoshop Beta Character removal (to give space for 3d character integration)
-![alt text](image-5.png)
+
+Photoshop Beta Character removal (to give space for 3d character integration) 
+
+***This process can be replaced with Dali-Inpainting***
+![image-5](https://github.com/user-attachments/assets/b566ff70-4ba6-45c6-835a-8e9ff2979fa6)
+
